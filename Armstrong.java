@@ -10,7 +10,7 @@ class Armstrong
       System.out.println("Enter any number");
          n=obj.nextInt();
            
-       temp=n;
+       temp=n
       while(n>0)
       {
        r=n%10;
