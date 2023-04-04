@@ -1,8 +1,8 @@
 //Finding armgstrong number
 
-import java.util.Scanner;
-class Armstrong
-{
+Armstrong
+{import java.util.Scanner;
+class 
    public static void main(String args[])
     {
       Scanner obj=new Scanner (System.in);
