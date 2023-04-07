@@ -10,3 +10,12 @@ public class Palindrome
          System.out.println("enter any number");
           n=obj.nextInt();
           
+          temp=n;
+          while(n>0)
+          {
+          	r=n%
+         		
+
+		
+	}
+}
