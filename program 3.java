@@ -17,3 +17,12 @@ class BankAccount                    //Super class
 	      	System.out.println("Enter  mobile number");
 	      	num=obj.nextLong();
 	      }
+
+          void display()                    //Display
+	      {
+	      	System.out.println("Your name is" +name);
+	      	System.out.println("Your account number is"   +acc_no);
+	      	System.out.println("Your mobile number is"    +num);
+	      	System.out.println("Your current balance is"   +bal);
+	      }
+	      
