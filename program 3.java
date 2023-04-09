@@ -46,3 +46,8 @@ class BankAccount                    //Super class
 					else
 					System.out.println("Sorry you cannot transact your amount, Insufficient Balance");
 		  }
+		  class Saving extends BankAccount               //Sub\ inherit class
+  {
+        float si, rate;
+        int month;
+        void input()
