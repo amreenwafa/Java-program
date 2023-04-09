@@ -25,4 +25,10 @@ class BankAccount                    //Super class
 	      	System.out.println("Your mobile number is"    +num);
 	      	System.out.println("Your current balance is"   +bal);
 	      }
-	      
+		  void deposit()                     //Deposit
+	      {
+	      	System.out.println("Kindly enter the amount of money you want to deposit");
+	      	dep=obj.nextFloat();
+	      	bal=bal+dep;
+	      	System.out.println("Your total ammout of money after deposit is"   +bal);
+	  	}
