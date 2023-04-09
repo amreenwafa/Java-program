@@ -51,3 +51,12 @@ class BankAccount                    //Super class
         float si, rate;
         int month;
         void input()
+
+		{
+			super.input();               //Taking input in Super
+			System.out.println("Enter rate of intrest");
+			rate=obj.nextFloat();
+			System.out.println("You will get" +rate+"%");
+		   System.out.println("Enter the month you want an intrest for");
+			month=obj.nextInt();
+}
