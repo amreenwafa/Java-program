@@ -60,3 +60,9 @@ class BankAccount                    //Super class
 		   System.out.println("Enter the month you want an intrest for");
 			month=obj.nextInt();
 }
+void intrest()                           //To display the amount of intrest
+{              
+				   si=((bal*rate*month)/(100*12));
+				   System.out.println("Amount of interst is" +si);
+}
+}       	
