@@ -76,3 +76,11 @@ class InherBank
 	      		System.out.println("WELCOME! To HDFC bank");
 	      		System.out.println("Please enter your correct detail");
 	      		kb.input();
+				  do
+	      		{
+	      			System.out.println("Enter your choice");
+	      			System.out.println("Press1 for display");
+	      		    System.out.println("Press 2 for deposit");  
+	      			System.out.println("Press 3 for withdraw");
+	      			System.out.println("Press 4 for intrest");
+	                 ch=sc.nextInt();     
