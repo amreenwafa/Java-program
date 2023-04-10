@@ -84,3 +84,24 @@ class InherBank
 	      			System.out.println("Press 3 for withdraw");
 	      			System.out.println("Press 4 for intrest");
 	                 ch=sc.nextInt();     
+					 switch(ch)
+					 {		
+						 
+							  case 1:kb.display();
+							  break;
+							   case 2:kb.deposit();
+							   break;
+							   case 3:kb.withdraw();
+							   break;
+								case 4:kb.intrest();
+								break;
+								default: 
+								System.out.println("Invalid choice");
+					 }
+					 System.out.println("Press 0 to continue");
+					 ch=sc.nextInt();
+					 }while(ch==0);
+					 
+								 
+						 }
+				   }  		
