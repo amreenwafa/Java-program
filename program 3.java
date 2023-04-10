@@ -66,3 +66,13 @@ void intrest()                           //To display the amount of intrest
 				   System.out.println("Amount of interst is" +si);
 }
 }       	
+class InherBank                           
+	  {
+	      	public static void main(String args[])
+	      	{
+	      		int ch;
+	      		Scanner sc=new Scanner(System.in);
+	      		Saving kb=new Saving();
+	      		System.out.println("WELCOME! To HDFC bank");
+	      		System.out.println("Please enter your correct detail");
+	      		kb.input();
