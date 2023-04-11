@@ -11,5 +11,12 @@ class ProfitLoss
 
           System.out.println("enter the amount of money you are going to sell the product");
             sp=obj.nextDouble();
-          
+            if(sp>cp)
+            {
+             profit=sp-cp;
+              System.out.println("You have got profit of Rs=" +profit);
+             profitper=(profit*100)/cp;
+              System.out.println("your profit percent is" +profitper);
+             }
+ 
 }
