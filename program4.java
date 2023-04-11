@@ -18,5 +18,12 @@ class ProfitLoss
              profitper=(profit*100)/cp;
               System.out.println("your profit percent is" +profitper);
              }
- 
+             else
+             {
+               loss=cp-sp;
+                System.out.println("You have loss of Rs=" +loss);
+               lossper=(loss*100)/sp;
+                System.out.println("Your loss percent is" +lossper);
+             }
+          } 
 }
