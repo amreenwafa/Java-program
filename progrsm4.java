@@ -6,3 +6,9 @@
     {
     	public static void main (String args[])
     	{
+            Scanner obj=new Scanner(System.in);
+    		int num1,num2,x,result;
+    		
+    		System.out.println("Please enter any two number");
+    		num1=obj.nextInt();
+    		num2=obj.nextInt();
