@@ -18,3 +18,19 @@
     		System.out.println("Press 3 for multiplication");
     		System.out.println("Press 4 for division");
     		x=obj.nextInt();
+
+            if(x==1)
+    		{
+    		    int add=num1+num2;
+    		    System.out.println("Addition of two number is =" +add);
+    		 }
+            else if(x==2)
+            {
+                int sub=num1-num2;
+                System.out.println("Substraction of two number is =" +sub);
+             }
+             else if(x==3)
+             {
+                int mul=num1*num2;
+                System.out.println("Multiplication of two number is =" +mul);
+              }
