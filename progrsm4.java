@@ -34,3 +34,16 @@
                 int mul=num1*num2;
                 System.out.println("Multiplication of two number is =" +mul);
               }
+              else if(x==4)
+              {
+                 int div=num1/num2;
+                 System.out.println("Division of two number is =" +div);
+              }
+               else 
+               System.out.println("Sorry! You have entered wrong choice");
+             
+          }
+  }               
+                                  
+                              		                  
+    		                   
