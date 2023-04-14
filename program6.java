@@ -14,3 +14,11 @@ public class pattern
             else  
             System.out.print("*");  
         }  
+        j--;  
+        while(j>0){// this loop is used to print numbers in a line  
+            if(j>lines-i)  
+            System.out.print("*");  
+            else  
+            System.out.print(j);  
+            j--;  
+        }
