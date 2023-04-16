@@ -10,3 +10,9 @@ class BinarySearchExample{
               while( first <= last ){  
                  if ( arr[mid] < key ){  
                    first = mid + 1;     
+                   mid = (first + last)/2;  
+   }  
+   if ( first > last ){  
+      System.out.println("Element is not found!");  
+   }  
+ }  
