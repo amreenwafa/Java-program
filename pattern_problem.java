@@ -22,3 +22,8 @@ public class pattern
             System.out.print(j);  
             j--;  
         }
+        if((lines-i)>9)// this loop is used to increment space  
+        space=space+1;  
+    System.out.println("");  
+    }  
+}  
