@@ -1,9 +1,11 @@
 public class pattern  
 {  
-    public static void main(String[] args) {  
+    public static void main(String[] args)
+     {  
     int lines=4;  
     int i,j;  
-    int space=0; 
+    int space=0;  
+
     for(i=0;i<lines;i++){// this loop is used to print lines  
         for(j=1;j<=space;j++){// this loop is used to print space in a line  
             System.out.print(" ");  
@@ -14,7 +16,8 @@ public class pattern
             else  
             System.out.print("*");  
         }  
-        j--;  
+        j--;
+
         while(j>0){// this loop is used to print numbers in a line  
             if(j>lines-i)  
             System.out.print("*");  
@@ -22,8 +25,10 @@ public class pattern
             System.out.print(j);  
             j--;  
         }
+
         if((lines-i)>9)// this loop is used to increment space  
-        space=space+1;  
+        space=space+1; 
+         
     System.out.println("");  
     }  
 }  
