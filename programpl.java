@@ -22,4 +22,9 @@ class  MatrixAdd
                                       x[ i ][ j ] = a[ i ][ j ] + b[ i ][ j ];       //Additon of two matrix
                                   }
                               }
-                      
+
+
+                              for( i=0 ; i<2 ; i++ )                           //first matrix
+                              {
+                                  for( j=0 ; j<2 ; j++ )                       //2nd matrix
+                                  {                      
