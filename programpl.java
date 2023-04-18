@@ -27,4 +27,11 @@ class  MatrixAdd
                               for( i=0 ; i<2 ; i++ )                           //first matrix
                               {
                                   for( j=0 ; j<2 ; j++ )                       //2nd matrix
-                                  {                      
+                                  {
+                                    
+				System.out.println( "Sum of the martrix is  =    " +      x[ i ][ j ] );
+			}
+
+		}
+	}
+}                      
