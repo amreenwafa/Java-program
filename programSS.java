@@ -11,3 +11,11 @@ class SeriesSum
 	            
 	           for(;i<=10;)
 	            {
+                    sum=(num*i)+sum;
+	            	i++;
+	            }
+	            
+	            System.out.println("Sum of series" +sum);
+	            
+	   }
+}
