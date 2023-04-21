@@ -25,3 +25,21 @@ class FourCal
 	  	               z=x+y;
 	  	               System.out.println("Additon of two number are =" +z);
 	  	               break;
+                    }
+	  	  
+                    case 2:
+                    {
+                                  z=x-y;
+                                  System.out.println("Substraction of two number are=" +z);
+                                  break;
+                    }
+                    
+                    case 3:
+                    {
+                               z=x*y;
+                               System.out.println("multiplication of two numbers are=" +z);
+                               break;
+                    }
+                     
+                    case 4:
+                    {
