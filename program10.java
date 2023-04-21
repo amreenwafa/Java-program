@@ -11,3 +11,17 @@ class FourCal
 	  	y=obj.nextInt();
 	  	do
 	  	{
+            System.out.println("Select your choice");
+	      System.out.println("Press 1 for addition");
+	  	System.out.println("Press 2 for substracton"); 
+	  	System.out.println("Press 3 for multiplication");
+	  	System.out.println("Press 4 for division");
+	  	ch=obj.nextInt();
+	  	
+	  	switch(ch)
+	  	{
+	  	  case 1:
+	  	  {
+	  	               z=x+y;
+	  	               System.out.println("Additon of two number are =" +z);
+	  	               break;
