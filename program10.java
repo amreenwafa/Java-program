@@ -43,3 +43,12 @@ class FourCal
                      
                     case 4:
                     {
+						
+	  	              z=x/y;
+	  	              System.out.println("Division of two numbers are=" +z);
+	  	              break;
+	  	  }
+	  	  
+	  	  default: 
+	  	              System.out.println("invalid choice");
+	  	}
