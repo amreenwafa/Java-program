@@ -52,3 +52,10 @@ class FourCal
 	  	  default: 
 	  	              System.out.println("invalid choice");
 	  	}
+		  System.out.println("Press 0 to continue and others to exit");
+	  	ch=obj.nextInt();
+	  	}while (ch==0);
+	  	
+	  }
+}
+	  	
