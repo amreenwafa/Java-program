@@ -47,3 +47,18 @@ public class InsertEnd {
         System.out.print(current.data + " ");  
         current = current.next;  
     }  
+    
+    System.out.println();  
+}  
+
+public static void main(String[] args) {  
+
+    InsertEnd sList = new InsertEnd();  
+
+    //Adding 1 to the list  
+    sList.addAtEnd(1);  
+    sList.display();  
+
+    //Adding 2 to the list  
+    sList.addAtEnd(2);  
+    sList.display();  
