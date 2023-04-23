@@ -62,3 +62,12 @@ public static void main(String[] args) {
     //Adding 2 to the list  
     sList.addAtEnd(2);  
     sList.display();  
+     //Adding 3 to the list  
+     sList.addAtEnd(3);  
+     sList.display();  
+
+     //Adding 4 to the list  
+     sList.addAtEnd(4);  
+     sList.display();  
+ }  
+}  
