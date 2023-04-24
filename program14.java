@@ -18,3 +18,11 @@ public class OddEven
          if(a[i][j] % 2 == 0)    
            countEven++;    
          else    
+         countOdd++;    
+        }    
+    }    
+        
+    System.out.println("Frequency of odd numbers: " + countOdd);    
+    System.out.println("Frequency of even numbers: " + countEven);    
+}    
+}    
