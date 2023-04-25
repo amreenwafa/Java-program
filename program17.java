@@ -16,3 +16,10 @@ public class pattern
          if(i==j)    
           System.out.print("*");    
          else   
+         System.out.print("0");    
+         j--;    
+     }    
+   System.out.println("");    
+ }    
+        }    
+}    
