@@ -15,3 +15,5 @@ public class LongestRepeatingSequence {
         int n = str.length();  
         for(int i = 0; i < n; i++){  
             for(int j = i+1; j < n; j++){ 
+                 //Checks for the largest common factors in every substring  
+                 String x = lcp(str.substring(i,n),str.substring(j,n));  
