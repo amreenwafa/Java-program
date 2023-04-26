@@ -9,3 +9,9 @@ public class LongestRepeatingSequence {
         }  
         return s.substring(0,n);  
     }  
+    public static void main(String[] args) {  
+        String str = "acbdfghybdf";  
+        String lrs="";  
+        int n = str.length();  
+        for(int i = 0; i < n; i++){  
+            for(int j = i+1; j < n; j++){ 
