@@ -8,3 +8,7 @@ static void numberToWords(char num[])
     //checks the given number has number or not  
 if (len == 0)   
 {  
+    //if the given number is empty prints the following statement     
+System.out.println("The string is empty.");  
+return;  
+}  
