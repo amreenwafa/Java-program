@@ -1,16 +1,16 @@
-//Finding armgstrong number
+//Write a java program to Find Armstrong number
 
-Armstrong
-{import java.util.Scanner;
-class 
+import java.util.Scanner;
+public class Armstrong{
    public static void main(String args[])
     {
       Scanner obj=new Scanner (System.in);
-       int n,temp,a=0,r;
+      int n,temp,a=0,r;
+      
       System.out.println("Enter any number");
-         n=obj.nextInt();
+      n=obj.nextInt();
            
-       temp=n;
+      temp=n;
       while(n>0)
       {
        r=n%10;
@@ -20,8 +20,8 @@ class
 
     if(a==temp)
      System.out.println("the number is armstrong");
-
-     else
-      System.out.println("the number is not armgstrong");
+    else
+     System.out.println("the number is not Armstrong");
+      
     }
 }
