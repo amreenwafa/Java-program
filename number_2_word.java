@@ -24,4 +24,9 @@ return;
 String[] onedigit = new String[] {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};  
 //string type array for two digits numbers    
 //the first index is empty because it makes indexing easy   
-String[] twodigits = new String[] {"", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"}; 
+String[] twodigits = new String[] {"", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+//string type array of tens multiples   
+//the first two indexes are empty because it makes indexing easy   
+String[] multipleoftens = new String[] {"",  "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};  
+//string type array of power of tens   
+String[] poweroftens = new String[] {"Hundred", "Thousand"};   
