@@ -19,4 +19,9 @@ if (len > 4)
     //if the given number is more than four-digit number, it prints the following statement    
 System.out.println("\n The given number has more than 4 digits.");  
 return;  
-}  
+} 
+ //string type array for one-digit numbers    
+String[] onedigit = new String[] {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};  
+//string type array for two digits numbers    
+//the first index is empty because it makes indexing easy   
+String[] twodigits = new String[] {"", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"}; 
