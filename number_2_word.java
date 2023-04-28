@@ -12,3 +12,7 @@ if (len == 0)
 System.out.println("The string is empty.");  
 return;  
 }  
+//here, we have specified the length of the number to 4  
+//it means that the number (that you want to convert) should be four or less than four digits  
+if (len > 4)   
+{  
