@@ -16,3 +16,7 @@ return;
 //it means that the number (that you want to convert) should be four or less than four digits  
 if (len > 4)   
 {  
+    //if the given number is more than four-digit number, it prints the following statement    
+System.out.println("\n The given number has more than 4 digits.");  
+return;  
+}  
