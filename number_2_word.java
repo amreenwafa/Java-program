@@ -35,4 +35,9 @@ String[] poweroftens = new String[] {"Hundred", "Thousand"};
 System.out.print(String.valueOf(num) + ": ");  
 //checks whether the length of the given string is one or not  
 if (len == 1)   
-{    
+{  
+    //if the above condition returns true, it accesses the corresponding index and prints the value of that index  
+//[num[0]-'0']: getting the number equal the decimal value of the character (assuming the char is the digit)  
+System.out.println(onedigit[num[0]-'0']);  
+return;  
+}    
