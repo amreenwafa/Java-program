@@ -29,4 +29,10 @@ String[] twodigits = new String[] {"", "Ten", "Eleven", "Twelve", "Thirteen", "F
 //the first two indexes are empty because it makes indexing easy   
 String[] multipleoftens = new String[] {"",  "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};  
 //string type array of power of tens   
-String[] poweroftens = new String[] {"Hundred", "Thousand"};   
+String[] poweroftens = new String[] {"Hundred", "Thousand"}; 
+//Used for debugging purpose only   
+//the valueOf() method returns the string representation of the character array argument  
+System.out.print(String.valueOf(num) + ": ");  
+//checks whether the length of the given string is one or not  
+if (len == 1)   
+{    
