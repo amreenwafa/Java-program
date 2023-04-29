@@ -40,4 +40,8 @@ if (len == 1)
 //[num[0]-'0']: getting the number equal the decimal value of the character (assuming the char is the digit)  
 System.out.println(onedigit[num[0]-'0']);  
 return;  
-}    
+}  
+int x = 0;  
+//executes until num does not become not '\0'  
+while (x < num.length)   
+{    
