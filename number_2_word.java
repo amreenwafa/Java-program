@@ -50,3 +50,10 @@ if (len >= 3)
 {  
 if (num[x] - '0' != 0)   
 {    
+    System.out.print(onedigit[num[x] - '0'] + " ");  
+//here length can be 3 or 4  
+System.out.print(poweroftens[len - 3]+ " ");  
+}  
+//decrements the length of the string by 1  
+--len;  
+}  
