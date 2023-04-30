@@ -63,3 +63,11 @@ else
 //the if-statement handles the numbers from 10 to 19 only     
 if (num[x] - '0' == 1)   
 {  
+    //adding the digits of the given number   
+//the logic behind sum up the digits is that we will use the sum for accessing the index of the array   
+//for example: 17, sum of digits = 8  
+//we will access the 8th index in twodigits[] array i.e. Seventeen  
+int sum = num[x] - '0' + num[x + 1] - '0';  
+System.out.println(twodigits[sum]);  
+return;  
+}  
