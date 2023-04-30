@@ -71,3 +71,7 @@ int sum = num[x] - '0' + num[x + 1] - '0';
 System.out.println(twodigits[sum]);  
 return;  
 }  
+//the else-if statement handles the number 20 only  
+//compares the tens and unit place with 2 and 0 respectively  
+else if (num[x] - '0' == 2 && num[x + 1] - '0' == 0)   
+{  
