@@ -57,3 +57,9 @@ System.out.print(poweroftens[len - 3]+ " ");
 //decrements the length of the string by 1  
 --len;  
 }  
+//executes if the given number has two digits  
+else   
+{  
+//the if-statement handles the numbers from 10 to 19 only     
+if (num[x] - '0' == 1)   
+{  
