@@ -75,3 +75,7 @@ return;
 //compares the tens and unit place with 2 and 0 respectively  
 else if (num[x] - '0' == 2 && num[x + 1] - '0' == 0)   
 {  
+    //executes if the above else-if condition returns true    
+System.out.println("Twenty");  
+return;  
+}  
