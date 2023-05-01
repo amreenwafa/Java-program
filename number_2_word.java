@@ -82,3 +82,6 @@ return;
 //the else block handles the numbers from 21 to 100  
 else   
 { 
+    int i = (num[x] - '0');  
+if (i > 0)  
+//prints the ith index element of the array multipleoftens[]  
