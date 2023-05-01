@@ -79,3 +79,6 @@ else if (num[x] - '0' == 2 && num[x + 1] - '0' == 0)
 System.out.println("Twenty");  
 return;  
 }  
+//the else block handles the numbers from 21 to 100  
+else   
+{ 
