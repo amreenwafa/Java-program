@@ -85,3 +85,7 @@ else
     int i = (num[x] - '0');  
 if (i > 0)  
 //prints the ith index element of the array multipleoftens[]  
+System.out.print(multipleoftens[i]+ " ");  
+else  
+//prints space  
+System.out.print("");
