@@ -110,3 +110,11 @@ numberToWords("1111".toCharArray());
 numberToWords("673".toCharArray());  
 numberToWords("85".toCharArray());  
 numberToWords("5".toCharArray());  
+numberToWords("0".toCharArray());  
+numberToWords("20".toCharArray());  
+numberToWords("1000".toCharArray());  
+numberToWords("12345".toCharArray());  
+//passing empty string   
+numberToWords("".toCharArray());  
+}  
+}  
