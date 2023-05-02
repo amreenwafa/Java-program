@@ -106,3 +106,7 @@ public static void main(String args[])
 {  
 //calling the user-defined method and that invokes another predefined method toCharArray()  
 //the method toCharArray() converts the given number into character array 
+numberToWords("1111".toCharArray());  
+numberToWords("673".toCharArray());  
+numberToWords("85".toCharArray());  
+numberToWords("5".toCharArray());  
