@@ -89,3 +89,15 @@ System.out.print(multipleoftens[i]+ " ");
 else  
 //prints space  
 System.out.print("");
+//increments the variable i by 1  
+++x;  
+//checks whether the number is not equal to zero, it means the number has only a digit  
+if (num[x] - '0' != 0)  
+//prints the ith index element of the array onedigit[]  
+System.out.println(onedigit[num[x] - '0']);  
+}  
+}  
+//increments the variable i by 1  
+++x;  
+}  
+} 
