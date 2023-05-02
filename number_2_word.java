@@ -101,3 +101,8 @@ System.out.println(onedigit[num[x] - '0']);
 ++x;  
 }  
 } 
+//main() method  
+public static void main(String args[])  
+{  
+//calling the user-defined method and that invokes another predefined method toCharArray()  
+//the method toCharArray() converts the given number into character array 
