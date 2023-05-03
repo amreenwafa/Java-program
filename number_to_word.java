@@ -9,3 +9,10 @@ private static final String[] onedigit = {"", " One", " Two", " Three", " Four",
 private NumberToWordExample2()   
 {  
 }  
+
+//user-defined method that converts a number to words (up to 1000)  
+private static String convertUptoThousand(int number)   
+{  
+String soFar;  
+if (number % 100 < 20)  
+{  
