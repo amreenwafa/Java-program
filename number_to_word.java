@@ -6,3 +6,6 @@ private static final String[] twodigits = {"", " Ten", " Twenty", " Thirty", " F
 //string type array for two digits numbers   
 private static final String[] onedigit = {"", " One", " Two", " Three", " Four", " Five", " Six", " Seven", " Eight", " Nine", " Ten", " Eleven", " Twelve", " Thirteen", " Fourteen", " Fifteen", " Sixteen", " Seventeen", " Eighteen", " Nineteen"};  
 //defining constructor of the class
+private NumberToWordExample2()   
+{  
+}  
