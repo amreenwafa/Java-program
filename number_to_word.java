@@ -26,3 +26,7 @@ number = number/ 10;
 soFar = twodigits[number % 10] + soFar;  
 number = number/ 10;  
 }  
+if (number == 0)   
+return soFar;  
+return onedigit[number] + " Hundred " + soFar;  
+}  
