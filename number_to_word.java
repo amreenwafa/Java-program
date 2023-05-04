@@ -21,3 +21,8 @@ number = number/ 100;
 }  
 else   
 {  
+    soFar = onedigit[number % 10];  
+number = number/ 10;  
+soFar = twodigits[number % 10] + soFar;  
+number = number/ 10;  
+}  
