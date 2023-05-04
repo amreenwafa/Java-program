@@ -30,3 +30,6 @@ if (number == 0)
 return soFar;  
 return onedigit[number] + " Hundred " + soFar;  
 }  
+//user-defined method that converts a long number (0 to 999999999) to string    
+public static String convertNumberToWord(long number)   
+{  
