@@ -16,3 +16,8 @@ private static String convertUptoThousand(int number)
 String soFar;  
 if (number % 100 < 20)  
 {  
+    soFar = onedigit[number % 100];  
+number = number/ 100;  
+}  
+else   
+{  
