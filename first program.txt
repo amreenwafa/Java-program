@@ -1,0 +1,7 @@
+//Finding armgstrong number
+
+Armstrong
+{import java.util.Scanner;
+class 
+   public static void main(String args[])
+    {
