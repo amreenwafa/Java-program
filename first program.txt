@@ -17,3 +17,10 @@ class
        n=n/10;
        a=a+r*r*r;
       }
+  if(a==temp)
+     System.out.println("the number is armstrong");
+
+     else
+      System.out.println("the number is not armgstrong");
+    }
+}
