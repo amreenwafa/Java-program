@@ -1,4 +1,4 @@
-//Arraylist program using add method
+
 import java.util.ArrayList;
 class Arraylist1
 {
