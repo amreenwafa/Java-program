@@ -6,5 +6,9 @@ public class program16 {
 
                 System.out.println("Enter any number");
 	            num=obj.nextInt();
-	      
+	          for(;i<=10;)
+	            {
+                    sum=(num*i)+sum;
+	            	i++;
+	            }
 }
