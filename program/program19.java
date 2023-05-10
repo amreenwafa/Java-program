@@ -29,5 +29,20 @@ public class program19 {
                                   System.out.println("Substraction of two number are=" +z);
                                   break;
                     }
+                    
+                    case 3:
+                    {
+                               z=x*y;
+                               System.out.println("multiplication of two numbers are=" +z);
+                               break;
+                    }
+                     
+                    case 4:
+                    {
+						
+	  	              z=x/y;
+	  	              System.out.println("Division of two numbers are=" +z);
+	  	              break;
+	  	  }
     
 }
