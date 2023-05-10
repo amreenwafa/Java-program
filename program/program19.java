@@ -14,6 +14,20 @@ public class program19 {
 	  	System.out.println("Press 3 for multiplication");
 	  	System.out.println("Press 4 for division");
 	  	ch=obj.nextInt();
-	  	
+	  	switch(ch)
+	  	{
+	  	  case 1:
+	  	  {
+	  	               z=x+y;
+	  	               System.out.println("Additon of two number are =" +z);
+	  	               break;
+                    }
+	  	  
+                    case 2:
+                    {
+                                  z=x-y;
+                                  System.out.println("Substraction of two number are=" +z);
+                                  break;
+                    }
     
 }
