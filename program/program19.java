@@ -44,5 +44,14 @@ public class program19 {
 	  	              System.out.println("Division of two numbers are=" +z);
 	  	              break;
 	  	  }
+            
+	  	  default: 
+	  	              System.out.println("invalid choice");
+	  	}
+		  System.out.println("Press 0 to continue and others to exit");
+	  	ch=obj.nextInt();
+	  	}while (ch==0);
+	  	
+	  }
     
 }
