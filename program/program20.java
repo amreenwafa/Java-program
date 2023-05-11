@@ -32,3 +32,19 @@ class BankAccount                    //Super class
 	      	bal=bal+dep;
 	      	System.out.println("Your total ammout of money after deposit is"   +bal);
 	  	}
+
+         void withdraw()                         //Withdraw
+	     {
+	      	System.out.println("Enter the amount of money you want to transact");
+	      	wdrl=obj.nextFloat();
+	          
+	          	if(wdrl<=bal)
+	          	{
+	          	 bal=bal-wdrl;
+	          	 System.out.println("Your remainig balance after transection is"   +bal);
+	          	 }
+	          	 
+	          	 else
+	          	 System.out.println("Sorry you cannot transact your amount, Insufficient Balance");
+	     }
+}	 	
