@@ -48,3 +48,22 @@ class BankAccount                    //Super class
 	          	 System.out.println("Sorry you cannot transact your amount, Insufficient Balance");
 	     }
 }	 	
+ class Saving extends BankAccount               //Sub\ inherit class
+  {
+        float si, rate;
+        int month;
+        void input()
+        {
+                          super.input();               //Taking input in Super
+                          System.out.println("Enter rate of intrest");
+                          rate=obj.nextFloat();
+                          System.out.println("You will get" +rate+"%");
+                         System.out.println("Enter the month you want an intrest for");
+                          month=obj.nextInt();
+         }
+         void intrest()                           //To display the amount of intrest
+         {              
+                            si=((bal*rate*month)/(100*12));
+         	      		 System.out.println("Amount of interst is" +si);
+         }
+  }       	
