@@ -17,3 +17,9 @@ class public static void main(String args[])
       }
 
     if(a==temp)
+    System.out.println("the number is armstrong");
+
+     else
+      System.out.println("the number is not armgstrong");
+    }
+}
