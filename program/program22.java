@@ -15,4 +15,7 @@ class GreateatNum
      else if(b>a)
       System.out.println("Second number is greatest");
 
-      else
+      else 
+       System.out.println("Both numbers are equal");
+   }
+}
