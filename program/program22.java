@@ -12,4 +12,7 @@ class GreateatNum
       if(a>b)
       System.out.println("first number is the greatest");
 
-     
+     else if(b>a)
+      System.out.println("Second number is greatest");
+
+      else
