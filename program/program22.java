@@ -5,3 +5,7 @@ class GreateatNum
      {
        Scanner obj=new Scanner (System.in);
            int a,b;
+             System.out.println("Enter two number");
+          a=obj.nextInt();
+          b=obj.nextInt();
+     
