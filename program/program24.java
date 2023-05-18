@@ -36,4 +36,12 @@ public class ClothDis
 		dis=amount2(15.00/100.00)*amount2;
 		break;
 		
+		}
+		
+	  System.out.println("Discount he gets="+dis);
+	  	
+	
+	
+	}
+}
 		
