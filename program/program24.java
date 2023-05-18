@@ -25,5 +25,15 @@ public class ClothDis
 		else
 		dis=amount1(10.00/100.00)*amount1;
 		break;
+		case amount2
+		if(amount2>=0&& amount2<=100)
+		dis=amount2;
+		else if(amount2>=101&&amount2<=200)
+		dis=amount2-(5.00/100.00)*amount2;
+		else if(amount2>=201&&amount2<=300)
+		dis=amount2-(10.0/100.00)*amount2;
+		else
+		dis=amount2(15.00/100.00)*amount2;
+		break;
 		
 		
