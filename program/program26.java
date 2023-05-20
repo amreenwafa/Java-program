@@ -13,7 +13,7 @@ class Admission
 
                 System.out.println("Enter the marks of Subject 1 : ");
                 m1 = in.nextInt();
-                
+
                 System.out.println("Enter the marks of Subject 2 : ");
                 m2 = in.nextInt();
 
@@ -22,3 +22,7 @@ class Admission
 
                 System.out.println("Enter the marks of Subject 4 : ");
                 m4 = in.nextInt();
+
+                System.out.println("Enter the marks of Subject 5 : ");
+                m5 = in.nextInt();
+              }
