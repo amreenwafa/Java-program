@@ -26,3 +26,15 @@ class Admission
                 System.out.println("Enter the marks of Subject 5 : ");
                 m5 = in.nextInt();
               }
+
+                            
+             //Display 
+             void meritList() 
+             {
+
+                if(m1>100||m2>100||m3>100||m4>100||m5>100) 
+                {
+                        System.out.println("You have entered invalid marks. Please re-enter all marks properly");
+                        input();
+                        meritList();
+                }
