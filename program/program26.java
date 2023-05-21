@@ -38,3 +38,7 @@ class Admission
                         input();
                         meritList();
                 }
+                   else if(m1<45||m2<45||m3<45||m4<45||m5<45)
+                {
+                        System.out.println("Your individual subject marks are less ,You are not eligible as per the guidelines ");
+                }
