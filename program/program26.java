@@ -51,3 +51,7 @@ class Admission
                        else if(per<80&&per>=60)
                                 System.out.println("Hey " +Name+" You got " +per+"%, Your Name will be on MeritList 2");
                        else
+                       System.out.println("Hey " +Name+" You got " +per+"%, Your Name will be on MeritList 3 or Later");
+              }
+            }
+  }
