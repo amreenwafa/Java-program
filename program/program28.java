@@ -15,5 +15,11 @@ class  MatrixAdd
 					                   {1,1},                        //2nd matrix
 				 	                  {1,1},
 				 	         };
-
+	for( i=0 ; i<2 ; i++ )                          //loop of 1st matrix
+		{
+			for( j=0 ; j<2 ; j++ )                       //loop of 2nd matrix
+			{
+				x[ i ][ j ] = a[ i ][ j ] + b[ i ][ j ];       //Additon of two matrix
+			}
+		}
 	
