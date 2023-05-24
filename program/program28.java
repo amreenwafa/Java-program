@@ -43,4 +43,10 @@ class Factorial
 	    System.out.println("Enter any number");
 	              n=obj.nextInt();
 	              
-	
+	   x=n;
+	          
+	           while(n>=1)
+	           {
+                fact=fact*n;
+	           	n--;
+	           }
