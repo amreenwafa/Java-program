@@ -33,4 +33,8 @@ class  MatrixAdd
 		}
 	}
 }
+import java.util.Scanner;
+class Factorial
+{
+    
 	
