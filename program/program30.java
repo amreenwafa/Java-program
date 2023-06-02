@@ -6,3 +6,8 @@ public class program30 {
             if(s.charAt(i) != t.charAt(i)){
     
 }
+return s.substring(0,i);  
+            }  
+        }  
+        return s.substring(0,n);  
+    }  
