@@ -1,13 +1,11 @@
 public class program30 {
+ String Name;
+        int m1, m2, m3, m4, m5;
+        float per,tMarks=500.0f;
+        Scanner in = new Scanner(System.in);
+ //Input
 
-    public static String lcp(String s, String t){  
-        int n = Math.min(s.length(),t.length());  
-        for(int i = 0; i < n; i++){  
-            if(s.charAt(i) != t.charAt(i)){
-    
+
+
+
 }
-return s.substring(0,i);  
-            }  
-        }  
-        return s.substring(0,n);  
-    }  
