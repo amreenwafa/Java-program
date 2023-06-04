@@ -12,5 +12,7 @@ public class program31 {
                 fact=fact*n;
 	           	n--;
 	           }
+               System.out.println("Factorial of number "+x+"is ="+fact);
+	         }
     
 }
