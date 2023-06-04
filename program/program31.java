@@ -7,5 +7,10 @@ public class program31 {
 	              n=obj.nextInt();
 	              
 	           x=n;
+                while(n>=1)
+	           {
+                fact=fact*n;
+	           	n--;
+	           }
     
 }
