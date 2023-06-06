@@ -1,18 +1,27 @@
-public class program31 {
-    public static void main (String args[])
-	   { 
-	          Scanner obj = new Scanner (System.in);
-	            int n,x,fact=1;
-                System.out.println("Enter any number");
-	              n=obj.nextInt();
-	              
-	           x=n;
-                while(n>=1)
-	           {
-                fact=fact*n;
-	           	n--;
-	           }
-               System.out.println("Factorial of number "+x+"is ="+fact);
-	         }
-    
-}
+public class program30 {
+ String Name;
+        int m1, m2, m3, m4, m5;
+        float per,tMarks=500.0f;
+        Scanner in = new Scanner(System.in);
+ //Input
+ void input() 
+  {
+                System.out.println("Enter Your Name");
+                Name = in.nextLine();
+
+                System.out.println("Enter the marks of Subject 1 : ");
+                m1 = in.nextInt();
+
+                System.out.println("Enter the marks of Subject 2 : ");
+                m2 = in.nextInt();
+
+                System.out.println("Enter the marks of Subject 3 : ");
+                m3 = in.nextInt();
+
+
+                System.out.println("Enter the marks of Subject 4 : ");
+                m4 = in.nextInt();
+
+                System.out.println("Enter the marks of Subject 5 : ");
+                m5 = in.nextInt();
+              }
