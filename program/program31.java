@@ -42,3 +42,8 @@ public class program30 {
                      System.out.println("Your individual subject marks are less ,You are not eligible as per the guidelines ");
                 }
                  else
+
+				 {
+                   per = ((m1+m2+m3+m4+m5)/tMarks)*100.0f;
+                   
+                       if(per>=80)
