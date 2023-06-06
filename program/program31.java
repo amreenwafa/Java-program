@@ -1,4 +1,5 @@
-public class program30 {
+public class program30 
+{
  String Name;
         int m1, m2, m3, m4, m5;
         float per,tMarks=500.0f;
@@ -47,3 +48,14 @@ public class program30 {
                    per = ((m1+m2+m3+m4+m5)/tMarks)*100.0f;
                    
                        if(per>=80)
+
+					   
+System.out.println("Hey " +Name+" You got " +per+"%, Your Name will be on MeritList 1");
+                       else if(per<80&&per>=60)
+                                System.out.println("Hey " +Name+" You got " +per+"%, Your Name will be on MeritList 2");
+                       else
+                       System.out.println("Hey " +Name+" You got " +per+"%, Your Name will be on MeritList 3 or Later");
+              }
+            }
+  }
+}
