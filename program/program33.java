@@ -10,5 +10,10 @@ public class program33 {
 	          
 	           while(n>=1)
 	           {
+                  fact=fact*n;
+	           	n--;
+	           }
+	         System.out.println("Factorial of number "+x+"is ="+fact);
+	         }
     
 }
