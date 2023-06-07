@@ -5,5 +5,10 @@ public class program33 {
 	            int n,x,fact=1;
 	    System.out.println("Enter any number");
 	              n=obj.nextInt();
+                         
+	           x=n;
+	          
+	           while(n>=1)
+	           {
     
 }
