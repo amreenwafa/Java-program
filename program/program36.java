@@ -15,7 +15,21 @@ public class program36 {
                 System.out.println("Enter the marks of Subject 2 : ");
                 m2 = in.nextInt();
 
-                System.out.println("Enter the marks of Subject 3 : ");
-                m3 = in.nextInt();
+                System.out.println("
+                
+                
+                System.out.println("Enter the marks of Subject 4 : ");
+                m4 = in.nextInt();
+
+                System.out.println("Enter the marks of Subject 5 : ");
+                m5 = in.nextInt();
+              }
+
+			  
+                     void meritList() 
+             {
+
+                if(m1>100||m2>100||m3>100||m4>100||m5>100) 
+                {
 
 }
