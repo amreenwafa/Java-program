@@ -43,4 +43,11 @@ public class program36 {
                  else
 
 				 {
+                per = ((m1+m2+m3+m4+m5)/tMarks)*100.0f;
+                   
+                       if(per>=80)
+
+					   
+System.out.println("Hey " +Name+" You got " +per+"%, Your Name will be on MeritList 1");
+                       else if(per<80&&per>=60)
 }
