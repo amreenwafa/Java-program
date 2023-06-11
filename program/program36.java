@@ -34,4 +34,8 @@ public class program36 {
  System.out.println("You have entered invalid marks. Please re-enter all marks properly");
                         input();
                         meritList();
+                           }
+                   else if(m1<45||m2<45||m3<45||m4<45||m5<45)
+                {
+
 }
