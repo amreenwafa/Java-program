@@ -9,4 +9,12 @@ public class program37 {
             if(i==j){  
                 System.out.print(j);  
             }  
+
+             else if(i>4 && j==lines-i){  
+                System.out.print(j);  
+            }  
+            else{  
+               System.out.print(" ");  
+            }  
+        }  
 }
