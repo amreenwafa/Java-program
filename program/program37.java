@@ -21,5 +21,12 @@ public class program37 {
         while(j>0){ //this loop is used to print numbers  
             if(i==j){  
             System.out.print(j);  
+            } 
+            
+             else if(i>4 && j==lines-i){  
+                System.out.print(j);  
+            }  
+            else{  
+                System.out.print(" ");  
             }  
 }
