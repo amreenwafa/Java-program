@@ -29,4 +29,12 @@ public class program37 {
             else{  
                 System.out.print(" ");  
             }  
+
+            
+            j--;  
+        }  
+        System.out.println("");  
+    }  
+     }  
+}  
 }
