@@ -3,4 +3,10 @@ public class program37 {
   
    int lines=8;  
     int i,j; 
+
+     for(i=1;i<lines;i++){// this loop is used to print the lines  
+        for(j=1;j<=lines/2;j++){// this loop is used to print numbers  
+            if(i==j){  
+                System.out.print(j);  
+            }  
 }
