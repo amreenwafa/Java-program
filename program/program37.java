@@ -17,4 +17,9 @@ public class program37 {
                System.out.print(" ");  
             }  
         }  
+              j=j-2;  
+        while(j>0){ //this loop is used to print numbers  
+            if(i==j){  
+            System.out.print(j);  
+            }  
 }
